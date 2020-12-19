@@ -14,6 +14,8 @@ Unauthenticated visitors to the site can view the latest comic, view and search 
 
 Authorized visitors (admins) can upload comics. This was something I wanted to get right, as it was a major sticking point on the previous version of this site. The comic is first resized to a bunch of different sizes (to be used in the front-end via srcSet) with the goal of making the site more performant. Each resized image is then sent to a CDN hosted by DigitalOcean. Meanwhile, the user is provided with status updates for each step and is provided a clear error message communicating which step of the process caused an error.
 
+There are basic tests for the pivotal routes and components, but plans are underway to expand these tests and add some form of continuous integration.
+
 New features will continue to be added, including an eventual transfer to the regular grubbythegrape domain. If you have any feedback or questions or a great idea of something to add, I can be reached at cory@corymutchler.com
 
 Stack:
